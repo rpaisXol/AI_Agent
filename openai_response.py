@@ -11,7 +11,6 @@ client = OpenAI(api_key="sk-...")
     결과값에서 output_text속성에는 텍스트로 응답이 있다.
     ChatGPT에서 하던 대로 웹을 검색해서 알려준다.
     tools: LLM이 사용할 수 있는 도구를 리스트로 정의, web_search_preview 도구를 사용하면, 기본 내장된 웹 검색 도구를 사용
-    
 """
 
 def get_reponses(prompt, model="gpt-5-mini"):
